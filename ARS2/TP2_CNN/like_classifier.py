@@ -116,9 +116,21 @@ def fit(model, train_dataloader):
 # Training epochs
 train_loss, train_accuracy = [], []
 start = time.time()
+# epoch: times of each image be visited
 for epoch in range(1):
     train_epoch_loss, train_epoch_accuracy = fit(vgg16, train_loader)
     train_loss.append(train_epoch_loss)
     train_accuracy.append(train_epoch_accuracy)
 end = time.time()
 print((end - start) / 60, 'minutes')
+
+# Homework
+# 1, do a prediction on the test set
+# 2, CUDA GPU version
+# 3, run a real time thumb up, thumb down by openCV
+
+
+def test(model, dataset):
+    pass
+
+
