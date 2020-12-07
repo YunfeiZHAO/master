@@ -1,0 +1,24 @@
+Practical session
+
+Instructions for suggested programming language and editor: Python 3 and Spyder
+
+1. Launch Spyder from Anaconda.
+2. In Spyder, don't forget to change the working directory to the location of the TD.
+3. Open TD_XXX.py file from this directory.
+4. Specific installation instructions might be given in the comments at the beginning of the file.
+5. Read existing code AND COMMENTS to understand the different steps.
+6. Then fill the code, comment and uncomment some parts, add many "print()", try and try again, rewrite everything, it's your move !
+
+Note about Spyder:
+In Spyder you can run the code cell by cell (shortcuts: Ctrl+Return or Shift+Return).
+A new cell is declared with the #%% comment-line.
+You can also run line per line with F9 shortcut.
+In addition you can enjoy a handy variable explorer.
+
+Online tutorials for Python newbies:
+- Scientific Python (Numpy...) online tutorial https://www.python-course.eu/numpy.php
+- Tutoriel en ligne sur Python pour les sciences (Numpy...) https://python-scientific-lecture-notes.developpez.com/
+
+Can I use internet resources?
+- You are encouraged to look for libraries documentation.
+- It is better not to look for all-done code, you are likely to loose valuable time and miss some understanding.
